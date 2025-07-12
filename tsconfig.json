@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es2021",
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -9,3 +9,26 @@
     "outDir": "./dist"
   }
 }
+
+// Your tsconfig.json is actually excellent for TypeScript development. Here's why:
+
+// ✅ TypeScript-Specific Features:
+
+// strict: true - Enables TypeScript's strongest type checking
+
+// forceConsistentCasingInFileNames: true - TypeScript compiler feature
+
+// skipLibCheck: true - Skips checking .d.ts files (TypeScript declarations)
+
+// outDir: "./dist" - Compiles .ts files to .js in dist folder
+
+// ✅ What It Does:
+
+// Takes your TypeScript code (.ts files)
+
+// Type-checks it with strict rules
+
+// Compiles it to JavaScript (ES2021) in the dist folder
+
+// Uses CommonJS modules (perfect for Node.js)
+
